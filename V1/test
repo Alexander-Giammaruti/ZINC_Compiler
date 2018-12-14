@@ -1,0 +1,22 @@
+program 
+
+var FLAG1 : integer;
+var FLAG2 : integer;
+var TEMP : integer;
+var TEMP2 : integer;
+
+var ABNER_1: integer;
+
+var X : integer;
+
+begin 
+ if FLAG1 then
+  while FLAG1 < FLAG2 loop
+   X := -1;
+   writeInt X + TEMP;
+   TEMP := 2240000000 - 6 + FLAG1 + 7 ** 4 div 3;
+  endwhile;
+ else
+  TEMP2 := 7;
+ endif;
+end 
